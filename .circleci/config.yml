@@ -71,7 +71,7 @@ jobs:
           ENVIRONMENT: production
     steps:
       - attach_workspace:
-        at: artifacts
+          at: artifacts
       - run:
           name: Install CF CLI
           command: |
